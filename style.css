@@ -4,20 +4,33 @@ body {
   height: 100vh;
   background-color: #ffcccc; /* rosa */
   background-image: url('https://e1.pxfuel.com/desktop-wallpaper/666/849/desktop-wallpaper-kawaii-cat-phone-backgrounds-kawaii-cat-phone.jpg'); /* estampa de gatos fofos */
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .container {
   text-align: center;
   padding: 20px;
   font-family: Arial, sans-serif;
+  color: #fff;
 }
 
 h1 {
   font-weight: 300;
   display: inline; 
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.question {
+  margin-top: 50px;
+}
+
+.buttons {
+  display: inline-block;
+  margin-top: 20px;
 }
 
 button {
@@ -38,10 +51,3 @@ button:nth-child(2) {
   background-color: red;
 }
 
-div.buttons {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 1fr;
-  grid-column-gap: 100px;
-  margin-top: 30px;
-}

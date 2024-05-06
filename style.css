@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: #ffcccc; /* rosa */
+  background-image: url('https://www.tenstickers-brasil.com/webp/wallpaper/large/65046165bb692.webp'); /* estampa de gatos fofos */
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-weight: 300;
+  display: inline; 
+  background-color: white;
+}
+
+button {
+  padding: 10px 40px;
+  border-radius: 5px;
+  font-family: "Roboto", sans-serif;
+  border: transparent;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:first-child {
+  background-color: green;
+}
+
+button:nth-child(2) {
+  background-color: red;
+}
+
+div.buttons {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 100px;
+  margin-top: 30px;
+}
